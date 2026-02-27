@@ -1,7 +1,5 @@
 # skills
 
-Test
-
 Collection of useful skills I want to own and manage.
 
 ## Linking skills to Cursor or Claude (symlink)
