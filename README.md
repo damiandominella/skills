@@ -18,7 +18,7 @@ ln -s "$(pwd)/skills" ~/.cursor/skills/skills
 ln -s "$(pwd)/skills/breaking-changes" ~/.cursor/skills/breaking-changes
 ```
 
-Restart Cursor (or reload the window) so it picks up the links.
+Restart Cursor so it picks up the links.
 
 ### Claude
 
