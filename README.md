@@ -25,3 +25,4 @@ Restart Cursor so it picks up the links.
 If your Claude setup uses a custom skills/extensions directory, symlink the same way into that directory (path depends on your OS and Claude version—check Claude’s docs for the correct location).
 
 Test
+Ciaoooo
