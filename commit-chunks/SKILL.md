@@ -42,12 +42,16 @@ Call out modified files intentionally left out of the guide.
 
 ## Commit messages
 
-Match the repository's recent style. If it uses Conventional Commits, choose the accurate type and scope:
+Match the repository's recent style for type and structure. Casing is not optional: commit messages never include uppercase letters.
+
+If it uses Conventional Commits, choose the accurate type and scope:
 
 - `feat` for new behavior.
 - `fix` for corrected behavior or access control.
 - `refactor` for behavior-preserving restructuring.
 - `test`, `docs`, or `chore` only when they accurately describe the whole commit.
+
+Use kebab-case naming instead of CamelCase for scopes, identifiers, and names in the subject. Write `user-auth`, not `userAuth` or `UserAuth`.
 
 Keep the subject concise and explain the purpose, not the file operations.
 
@@ -62,7 +66,7 @@ git add \
   path/to/file-one \
   path/to/file-two
 
-git commit -m "feat(scope): describe the outcome"
+git commit -m "feat(user-auth): add session refresh"
 ```
 
 Use exact repository-relative paths. End with a short note listing unrelated or intentionally uncommitted files.
